@@ -1,1 +1,86 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Daily News</h1>
+        <p>Your daily source of news and updates</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#national">National</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <section>
+            <h2>Latest News</h2>
+
+            <article id="national">
+                <h3>National News</h3>
+                <img src="news.jpg.jpg"
+     alt="National News"
+     width="400"
+     height="200">
+                <p>This is a sample news article. Read the latest news and important updates here.</p>
+                <a href="https://www.bbc.com/news" target="_blank">Read more at BBC News</a>
+            </article>
+
+            <article id="sports">
+                <h3>Sports News</h3>
+                <p>Get updates about sports, matches and players.</p>
+                <a href="https://www.espn.com/" target="_blank">Visit Sports News</a>
+            </article>
+        </section>
+
+        <section id="video">
+            <h2>Embedded YouTube Video</h2>
+            <iframe width="400" height="250"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube Video"
+                allowfullscreen>
+            </iframe>
+            <p>This video is embedded using the iframe tag.</p>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+
+            <h3>Audio</h3>
+
+<audio controls>
+    <source src="sample-audio.mp3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<p>Audio is added using the audio tag.</p>
+
+            <h3>Video</h3>
+
+<video width="400" controls>
+    <source src="sample-video.mp4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>Video is added using the video tag.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Daily News Website</p>
+        <a href="#home">Back to Home</a>
+    </footer>
+
+</body>
+</html>
