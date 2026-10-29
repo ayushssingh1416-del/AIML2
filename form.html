@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>BioData</legend>
+      <form action="./response.html">
+        <label for="name">Username:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+        <br /><br />
+        <label for="Password">Password:</label>
+        <input type="Password" name="Pass" id="pass" />
+
+        <br /><br />
+        <label for="DOB">DOB:</label>
+        <input type="date" name="DOB" id="DOB" />
+        
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="Gender" id="Gender" /><label for="Gender"
+          >Male</label
+        >
+        <input type="radio" name="Gender" id="Gender" /><label for="Gender"
+          >Female</label
+        >
+
+        <br /><br />
+
+        <label for="hobb">Hobbies:</label>
+        <input type="checkbox" name="hobb1" id="hobb" /><label for="hobb"
+          >CRICKET</label
+        >
+        <input type="checkbox" name="hobb2" id="hobb" /><label for="hobb"
+          >FOOTBALL</label
+        >
+
+        <br /><br />
+        <label for="add">ADDRESS:</label>
+
+        <textarea name="add" id="add"></textarea>
+
+        <br /><br />
+        <label for="tel">PHONE NUMBER:</label>
+        <input type="tel" name="tel" id="tel" />
+
+        <br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+        <label for="att">Attempt:</label>
+        <input type="number" name="att" id="att">
+
+        <br><br>
+        <label for="URL">HOMEPAGE:</label>
+        <input type="url" name="URL" id="URL">
+
+        <br><br>
+        <label for="language">SELECT LANGUAGE</label>
+        <select name="language" id="language">
+          <option value="SELECT">SELECT</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="JAVA">JAVA</option>
+          <option value="PYTHON">PYTHON</option>
+          <BR></BR>
+        </select>
+
+        <br><br>
+        <label for="file">Upload:</label>
+        <input type="file" name="file" id="file">
+
+        <br><br>
+        <input type="submit">
+        <br><br>
+        <input type="reset">
+
+
+
+
+      </form>
+    </fieldset>
+  </body>
+</html>
